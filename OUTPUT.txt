@@ -1,0 +1,101 @@
+Mar 03, 2015 4:48:00 PM org.springframework.context.support.FileSystemXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@136432db: startup date [Tue Mar 03 16:48:00 PST 2015]; root of context hierarchy
+Mar 03, 2015 4:48:00 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Users\Akanksha\CMPE 273\CMPE275_Lab1\src\beans.xml]
+TestA
+Bob reads the file /home/Alice/shared/alicetext1.txt
+Does not have the priviledge to read!
+Mar 03, 2015 4:48:01 PM org.springframework.context.support.FileSystemXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@6743e411: startup date [Tue Mar 03 16:48:01 PST 2015]; root of context hierarchy
+Mar 03, 2015 4:48:01 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Users\Akanksha\CMPE 273\CMPE275_Lab1\src\beans.xml]
+TestD
+Alice shares the file /home/Alice/shared/alicetext1.txt with Bob
+Access granted for sharing the file.
+Bob shares the file /home/Alice/shared/carltext1.txt with Alice
+Does not have the priviledge to share!
+Mar 03, 2015 4:48:01 PM org.springframework.context.support.FileSystemXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@6a2f6f80: startup date [Tue Mar 03 16:48:01 PST 2015]; root of context hierarchy
+Mar 03, 2015 4:48:01 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Users\Akanksha\CMPE 273\CMPE275_Lab1\src\beans.xml]
+TestB
+Alice shares the file /home/Alice/shared/alicetext1.txt with Bob
+Access granted for sharing the file.
+Bob reads the file /home/Alice/shared/alicetext1.txt
+Access granted to read the file.
+Mar 03, 2015 4:48:02 PM org.springframework.context.support.FileSystemXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@609db43b: startup date [Tue Mar 03 16:48:02 PST 2015]; root of context hierarchy
+Mar 03, 2015 4:48:02 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Users\Akanksha\CMPE 273\CMPE275_Lab1\src\beans.xml]
+TestC
+Alice shares the file /home/Alice/shared/alicetext1.txt with Bob
+Access granted for sharing the file.
+Bob reads the file /home/Alice/shared/alicetext1.txt
+Access granted to read the file.
+Bob shares the file /home/Alice/shared/alicetext1.txt with Carl
+Access granted for sharing the file.
+Carl reads the file /home/Alice/shared/alicetext1.txt
+Access granted to read the file.
+Mar 03, 2015 4:48:02 PM org.springframework.context.support.FileSystemXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@649bec2e: startup date [Tue Mar 03 16:48:02 PST 2015]; root of context hierarchy
+Mar 03, 2015 4:48:02 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Users\Akanksha\CMPE 273\CMPE275_Lab1\src\beans.xml]
+TestH
+Alice shares the file /home/Alice/shared/alicetext1.txt with Bob
+Access granted for sharing the file.
+Bob reads the file /home/Alice/shared/alicetext2.txt
+Does not have the priviledge to read!
+Mar 03, 2015 4:48:02 PM org.springframework.context.support.FileSystemXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@5acf93bb: startup date [Tue Mar 03 16:48:02 PST 2015]; root of context hierarchy
+Mar 03, 2015 4:48:02 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Users\Akanksha\CMPE 273\CMPE275_Lab1\src\beans.xml]
+TestG
+Alice shares the file /home/Alice/shared/alicetext1.txt with Bob
+Access granted for sharing the file.
+Bob shares the file /home/Alice/shared/alicetext1.txt with Carl
+Access granted for sharing the file.
+Alice unshares the file /home/Alice/shared/alicetext1.txt with Bob
+Acess granted to unshare the file.
+Bob shares the file /home/Alice/shared/alicetext1.txt with Carl
+Does not have the priviledge to share!
+Mar 03, 2015 4:48:02 PM org.springframework.context.support.FileSystemXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@942a29c: startup date [Tue Mar 03 16:48:02 PST 2015]; root of context hierarchy
+Mar 03, 2015 4:48:02 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Users\Akanksha\CMPE 273\CMPE275_Lab1\src\beans.xml]
+TestE
+Alice shares the file /home/Alice/shared/alicetext1.txt with Bob
+Access granted for sharing the file.
+Bob shares the file /home/Alice/shared/alicetext1.txt with Carl
+Access granted for sharing the file.
+Alice unshares the file /home/Alice/shared/alicetext1.txt with Carl
+Acess granted to unshare the file.
+Carl reads the file /home/Alice/shared/alicetext1.txt
+Does not have the priviledge to read!
+Mar 03, 2015 4:48:02 PM org.springframework.context.support.FileSystemXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@53045c6c: startup date [Tue Mar 03 16:48:02 PST 2015]; root of context hierarchy
+Mar 03, 2015 4:48:02 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Users\Akanksha\CMPE 273\CMPE275_Lab1\src\beans.xml]
+TestF
+Alice shares the file /home/Alice/shared/alicetext1.txt with Bob
+Access granted for sharing the file.
+Alice shares the file /home/Alice/shared/alicetext1.txt with Carl
+Access granted for sharing the file.
+Carl shares the file /home/Alice/shared/alicetext1.txt with Bob
+Access granted for sharing the file.
+Alice unshares the file /home/Alice/shared/alicetext1.txt with Bob
+Acess granted to unshare the file.
+Bob reads the file /home/Alice/shared/alicetext1.txt
+Does not have the priviledge to read!
+
+*****************RESULT OF TESTS*****************************
+
+testA: pass 
+testB: pass 
+testC: pass 
+testD: pass 
+testE: pass 
+testF: pass 
+testG: pass
+testH: pass
+
+**************************************************************
